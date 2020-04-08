@@ -1,0 +1,32 @@
+{
+    "name": "fcodedigital/zend_validators",
+    "description": "CPF and CNPJ validators for ZendExpressive",
+    "type": "library",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "FCode",
+            "email": "contato@fcode.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "FCodeDigital\\":"src\\"
+        },
+        "psr-0":{
+            "FCodeDigital\\":"src\\"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/FCodeDigital/doctrine-enum"
+        }
+    ],
+    "require": {
+        "PHP":">=5.5",
+        "zendframework/zend-filter": "^2.7",
+        "zendframework/zend-validator": "^2.8"
+    }
+}
