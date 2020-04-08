@@ -3,14 +3,14 @@
     "description": "CPF and CNPJ validators for ZendExpressive",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "FCode",
             "email": "contato@fcode.com.br"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload":{
         "psr-4":{
             "FCodeDigital\\":"src\\"
