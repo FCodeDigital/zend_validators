@@ -2,7 +2,8 @@
     "name": "fcodedigital/zend_validators",
     "description": "CPF and CNPJ validators for ZendExpressive",
     "type": "library",
-    "license": "BSD-3",
+    "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "FCode",
